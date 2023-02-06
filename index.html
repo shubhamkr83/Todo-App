@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Todo App</title>
+</head>
+
+<body>
+    <!-- main container -->
+    <section class="container">
+        <!-- app heading -->
+        <div class="heading">
+            <h1>Todo App</h1>
+        </div>
+        <!-- task input -->
+        <div class="task_input">
+            <!-- taking input from user  -->
+            <div class="input">
+                <input type="text" placeholder="Enter your task" id="todo_input">
+                <input type="hidden" id="save_index">
+            </div>
+            <!-- action buttons -->
+            <div class="btn">
+                <button id="add_btn">Add Task</button>
+                <button id="save_btn">Save Task</button>
+                <button id="delete_all_btn">Clear All</button>
+            </div>
+        </div>
+        <!-- task lists main container -->
+        <div class="tasks">
+            <!-- task lists -->
+            <table id="task_list">
+
+            </table>
+        </div>
+
+    </section>
+
+    <!-- javascript link -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
